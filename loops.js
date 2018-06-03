@@ -23,6 +23,7 @@ function maybeTrue() {
 }
 
 function doWhileLoop(array) {
+  n = array.length;
   do {
     console.log(n);
     n--;
