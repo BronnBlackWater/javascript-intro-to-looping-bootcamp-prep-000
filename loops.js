@@ -23,11 +23,10 @@ function maybeTrue() {
 }
 
 function doWhileLoop(array) {
-  n = array.length;
   do {
-    console.log(n);
-    n--;
-
-  } while (n > 0 && maybeTrue())
-
+    console.log(array.length);
+    array.pop();
+    
+  } while (array.length > 0 && maybeTrue())
+  return 
 }
